@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "octopus-cmake-dev"
+version = "0.0.0"
+description = "Documentation environment for octopus-cmake"
+
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+    "furo",
+    "sphinx-design",
+    "sphinx-togglebutton",
+    "myst-parser",
+]
+
+[tool.setuptools]
+packages = []
