@@ -15,6 +15,7 @@ docs = [
     "sphinx-design",
     "sphinx-togglebutton",
     "myst-parser",
+    "sphinxcontrib-moderncmakedomain",
 ]
 
 [tool.setuptools]

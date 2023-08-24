@@ -6,6 +6,7 @@ extensions = [
     "myst_parser",
     "sphinx_design",
     "sphinx_togglebutton",
+    "sphinxcontrib.moderncmakedomain",
 ]
 
 templates_path = []
